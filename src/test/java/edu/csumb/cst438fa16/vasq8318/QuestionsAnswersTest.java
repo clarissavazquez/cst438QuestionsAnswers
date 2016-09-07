@@ -1,8 +1,7 @@
 import static org.junit.Assert.*;
-import org.junit.Test;
-import junit.framework.TestCase;
+import org.junit.*;
 
-public class QuestionsAnswersTest extends TestCase {
+public class QuestionsAnswersTest {
 	@Test
 	public void testQuestionMatchesAnswer() {
 		QuestionsAnswers qa = new QuestionsAnswers();
